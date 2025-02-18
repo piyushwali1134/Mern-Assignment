@@ -1,1 +1,1 @@
-# Mern-Assignment
+# ETHNUS Mern Assignment
