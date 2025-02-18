@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .list-container {
+        border: 1px solid black;
+        padding: 15px;
+        width: 250px;
+        margin-top: 20px;
+      }
+      ul {
+        list-style-type: disc; /* Black dots */
+        font-size: 18px; /* Increases text and bullet size */
+      }
+      ul ul {
+        list-style-type: circle; /* White dots for nested list */
+      }
+      li {
+        margin: 8px 0; /* Adds spacing for better visibility */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list-container">
+      <p><b>Lists can be nested (list inside list):</b></p>
+      <ul>
+        <li>Coffee</li>
+        <li>
+          Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+      </ul>
+    </div>
+  </body>
+</html>
